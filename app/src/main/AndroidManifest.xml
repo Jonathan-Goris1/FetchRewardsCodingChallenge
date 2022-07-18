@@ -4,7 +4,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-        android:name="com.codingchallenge.CodingChallengeApplication"
+        android:name=".CodingChallengeApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -14,7 +14,6 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.FetchRewardsCodingChallenge">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
