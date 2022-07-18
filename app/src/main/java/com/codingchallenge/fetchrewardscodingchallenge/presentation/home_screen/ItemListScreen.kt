@@ -8,6 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
@@ -15,6 +16,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.codingchallenge.fetchrewardscodingchallenge.presentation.components.ItemCard
+import com.codingchallenge.fetchrewardscodingchallenge.utils.TestTags
 
 
 @Composable
@@ -63,6 +65,7 @@ fun ItemListScreen(
                             horizontalArrangement = Arrangement.Center
                         ) {
                             Text(
+                                modifier = Modifier.testTag(TestTags.GroupID_text),
                                 text = "ListID: ${key.toString()}",
                                 textAlign = TextAlign.Center,
                                 fontSize = 16.sp,
