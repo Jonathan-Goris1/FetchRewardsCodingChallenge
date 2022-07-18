@@ -14,8 +14,6 @@ class GetItemsFilterAndSorted(private val repository: ItemListRepository) {
             )
         )
 
-
-
     }
 
 }
