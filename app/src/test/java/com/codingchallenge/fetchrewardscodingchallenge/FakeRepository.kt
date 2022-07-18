@@ -2,7 +2,6 @@ package com.codingchallenge.fetchrewardscodingchallenge
 
 import com.codingchallenge.fetchrewardscodingchallenge.data.remote.model.ItemListModelItem
 import com.codingchallenge.fetchrewardscodingchallenge.domain.repository.ItemListRepository
-import com.codingchallenge.fetchrewardscodingchallenge.utils.Resource
 import kotlin.random.Random
 
 class FakeRepository: ItemListRepository {
