@@ -13,7 +13,7 @@ Please make the project buildable on the latest (non-pre release) tools and supp
 
 
 # Requirements
-These Requirements were the tools I decided to use for the project and are not the requirments for the coding challenge
+These Requirements were the tools I decided to use for the project and are not the requirements for the coding challenge itself.
 * API21+
 * MVVM
 * SOLID
