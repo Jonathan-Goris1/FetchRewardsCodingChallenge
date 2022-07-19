@@ -15,6 +15,7 @@ import androidx.compose.ui.unit.sp
 import com.codingchallenge.fetchrewardscodingchallenge.data.remote.model.ItemListModelItem
 import com.codingchallenge.fetchrewardscodingchallenge.utils.TestTags
 
+//This composable will display the data
 @Composable
 fun ItemCard(
     modifier: Modifier = Modifier,

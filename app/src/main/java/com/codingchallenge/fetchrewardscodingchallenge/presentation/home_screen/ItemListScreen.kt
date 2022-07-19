@@ -18,7 +18,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import com.codingchallenge.fetchrewardscodingchallenge.presentation.components.ItemCard
 import com.codingchallenge.fetchrewardscodingchallenge.utils.TestTags
 
-
+//This composable will be the main screen of the application
 @Composable
 fun ItemListScreen(
     viewModel: ItemListScreenViewModel = hiltViewModel()

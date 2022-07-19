@@ -1,5 +1,7 @@
 package com.codingchallenge.fetchrewardscodingchallenge.utils
 
+//This object holds the created tags for the views
+//to be called for testing purposes
 object TestTags {
     //Home Screen
     const val GroupID_text = "groupId_text"

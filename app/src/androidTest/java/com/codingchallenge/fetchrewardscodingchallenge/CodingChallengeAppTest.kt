@@ -13,8 +13,10 @@ import dagger.hilt.android.testing.UninstallModules
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-
+//You must annotate any UI test that uses Hilt with @HiltAndroidTest.
+// This annotation is responsible for generating the Hilt components for each test.
 @HiltAndroidTest
+//An annotation used to uninstall modules that have previously been installed with InstallIn.
 @UninstallModules(AppModule::class)
 class CodingChallengeAppTest {
     @get:Rule(order = 0)
@@ -33,7 +35,7 @@ class CodingChallengeAppTest {
 
     @Test
     fun checkListIsDisplayedCorrectly() {
-        // Perform text inputs
+        // Check to see if the UI is displayed correctly
         composeRule.onNodeWithTag(TestTags.GroupID_text).assertIsDisplayed()
         composeRule.onNodeWithTag(TestTags.ID_Text).assertIsDisplayed()
         composeRule.onNodeWithTag(TestTags.ListID_Text).assertIsDisplayed()

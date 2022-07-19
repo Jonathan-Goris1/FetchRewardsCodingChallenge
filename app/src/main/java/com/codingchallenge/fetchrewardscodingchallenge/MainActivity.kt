@@ -13,7 +13,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.codingchallenge.fetchrewardscodingchallenge.presentation.home_screen.ItemListScreen
 import com.codingchallenge.fetchrewardscodingchallenge.ui.theme.FetchRewardsCodingChallengeTheme
 import dagger.hilt.android.AndroidEntryPoint
-
+//Marks an Android component class to be setup for injection with the standard Hilt Dagger Android components.
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,6 +25,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
+                    //This will be our Main Screen and only screen
                     ItemListScreen()
                 }
             }
