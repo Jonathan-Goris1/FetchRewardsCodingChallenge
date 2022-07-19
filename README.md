@@ -17,10 +17,9 @@ These Requirements were the tools I decided to use for the project and are not t
 * API21+
 * MVVM
 * SOLID
-* Dagger Hilt
-* Retrofit
-* Gitflow
-* Jetpack Components
+* [Dagger Hilt](https://dagger.dev/hilt/)
+* [Retrofit](https://square.github.io/retrofit/)
+* [Jetpack Components](https://developer.android.com/jetpack)
 
 # Dependencies
     //Dagger Hilt
